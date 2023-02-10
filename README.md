@@ -1,2 +1,2 @@
 # Computer Vision RPS
-Welcome to the computer vision project.
+To begin the CVRPS project, a computer vision model was trained in 'Teachable Machine'. The model trained on 4 classes (rock, paper, scissors and nothing). The rock model was trained on 763 image samples to capture images of a fist, a representation of a rock. The paper model was trained with 680 image samples to capture images of an open plam representing a paper leaf, the scissors model was trained using 800 image samples to capture a two fingured representation of a scissor and finally a nothing model was trained on 640 image samples of no signs held against the camera.
