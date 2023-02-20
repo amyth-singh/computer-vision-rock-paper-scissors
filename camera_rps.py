@@ -40,6 +40,7 @@ print("you chose rock")
 
 computer_wins = []
 user_wins = []
+rounds_played = []
 
 while True:
     if (len(computer_wins) == 3) or (len(user_wins) == 3) or (len(rounds_played) == 5):
