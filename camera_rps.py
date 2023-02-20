@@ -25,15 +25,23 @@ def get_prediction():
     cap.release()
     # # Destroy all the windows
     cv2.destroyAllWindows()
+    # prints the maximum value from a list of predictions
+    max_predict = np.max(prediction)
+    print(max_predict)
 
-    print(type(prediction))
-    print(np.max(prediction))
+# calles the get-prediction model
+get_prediction()
 
-
+# creates a count down timer for one second
 start_time  = time.time()
-
 while time.time() < start_time + 1:
     print(start_time)
 print("you chose rock")
 
-get_prediction()
+computer_wins = []
+user_wins = []
+
+while True:
+    if (len(computer_wins) == 3) or (len(user_wins) == 3) or (len(rounds_played) == 5):
+        print(get_prediction())
+
