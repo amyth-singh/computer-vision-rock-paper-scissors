@@ -1,4 +1,4 @@
-#%%
+
 import cv2
 import time
 from keras.models import load_model
@@ -23,8 +23,12 @@ def get_prediction():
             break                
     # After the loop release the cap object
     cap.release()
-    # Destroy all the windows
+    # # Destroy all the windows
     cv2.destroyAllWindows()
+
+    print(type(prediction))
+    print(np.max(prediction))
+
 
 start_time  = time.time()
 
@@ -32,5 +36,4 @@ while time.time() < start_time + 1:
     print(start_time)
 print("you chose rock")
 
-
-# %%
+get_prediction()
