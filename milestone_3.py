@@ -17,7 +17,8 @@ while True:
     print(prediction)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
-            
+    max_predict = np.max(prediction) # Prints the maximum value from a list of predictions
+    print(max_predict)
 # After the loop release the cap object
 cap.release()
 # Destroy all the windows
