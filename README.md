@@ -13,4 +13,5 @@ Created three functions (get_computer_choice, get_user_choice and get_winner). t
 # 
 In this milestone the hard-coded user guess with the output gets replaced by the computer vision model in the camrera_rps.py file. A new function called get_prediction() is created that returns the output of the model, the max prediction and the index of the prediction. The user plays using the camera against computers random choice and a series of condtions are written to get the winner and create round conditions. All of these have been nested within a class to make the code clearner and DRY. 
 
-<img src="C:\Users\amith\Desktop\Ai-Core\computer-vision-rock-paper-scissors\cam_rps.png" alt="Camerarps" />
+![cam_rps](https://github.com/amyth-singh/computer-vision-rock-paper-scissors/assets/78929302/33645a1f-69d6-4a2d-8ec1-18f5c15c5cce)
+
